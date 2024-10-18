@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+#tarolo {
+    width:80%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.nav li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+a {
+    border-left: 1px solid black;
+    padding-left: 2px;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: 100px auto 100px 100px;
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.nav b {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li1 {
+    background-color: red;
+    padding: 4px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: red;
+}
+
+.nav {
+    background-color: rgb(231, 219, 219);
+}
+
+.fejlec {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.kep img { 
+
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.kep {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.fokep img {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 650px) {
+    .nav ul {
+        grid-template-columns: auto;
+    }
+    .kep {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .kep {
+        grid-template-columns: 1fr;
+    }
+}
