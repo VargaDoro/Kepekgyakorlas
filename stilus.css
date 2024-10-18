@@ -12,7 +12,6 @@
 .nav li {
     padding-top: 4px;
     padding-bottom: 4px;
-    
 }
 
 a {
@@ -28,21 +27,20 @@ a {
     padding: 2px;
 }
 
-.nav b {
-    text-decoration: none;
-    color: white;
-}
 
-.nav li1 {
-    background-color: red;
-    padding: 4px;
-}
 
 .nav a {
     text-decoration: none;
     color: red;
 }
 
+a.kezdo {
+    background-color: red;
+    padding: 4px;
+
+    text-decoration: none;
+    color: white;
+}
 .nav {
     background-color: rgb(231, 219, 219);
 }
